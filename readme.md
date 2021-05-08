@@ -1,9 +1,10 @@
 
  ![drawing](https://accubits-image-assets.s3-ap-southeast-1.amazonaws.com/AJ/terraform.png "")
+ ![drawing](https://accubits-image-assets.s3-ap-southeast-1.amazonaws.com/AJ/sops.png "")
  ![drawing](https://accubits-image-assets.s3-ap-southeast-1.amazonaws.com/AJ/aws.png "")
  ![drawing](https://accubits-image-assets.s3-ap-southeast-1.amazonaws.com/AJ/git.png "")
  
-## Terraform / AWS CLI / GIT 
+## Terraform / Mozilla SOPS / AWS CLI / GIT 
 
 - `cp env.sample .env`
 - Update values for `AWS_ACCESS_KEY_ID`,`AWS_SECRET_ACCESS_KEY` and `AWS_DEFAULT_REGION`  in `.env` file
