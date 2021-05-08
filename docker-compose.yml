@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  terraform:
+    build: .
+    container_name: terraform
+    image: arunjayakumar/terrform:0.1
+    environment:
+      - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
+      - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+      - AWS_DEFAULT_REGION=${AWS_DEFAULT_REGION}
+    command: ""
+    volumes:
+      - './:/home/ubuntu/project'
+    restart: always
